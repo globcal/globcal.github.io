@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/globcal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://globcal.github.io
+  * I am globcal (https://keybase.io/globcal) on keybase.
+  * I have a public key with fingerprint BA66 B8E6 DEC9 F4F3 C2C2  C8DB 09E8 247C 0872 3901
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101eac542ef56a830ed380fabd1f7c5288e9bf67d320b81f027e984ba788802db2f0a",
+            "fingerprint": "ba66b8e6dec9f4f3c2c2c8db09e8247c08723901",
+            "host": "keybase.io",
+            "key_id": "09e8247c08723901",
+            "kid": "0101eac542ef56a830ed380fabd1f7c5288e9bf67d320b81f027e984ba788802db2f0a",
+            "uid": "fbc38166cb6915cb134677a772cda619",
+            "username": "globcal"
+        },
+        "service": {
+            "hostname": "globcal.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1491949822,
+    "expire_in": 157680000,
+    "prev": "9d8dc72c1233c8a2e079c467fadeb79b299a4bb6ec6b43d45ca638da38a02ad7",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.68
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSBRRGB7XUtyKijIhCGOijUJi5szszBmpl6iHEDTDwEJZzm3WQd1Z
+Z2bNNSykOxUphZhZLQbdJF9EpDLoSmUXA42I1KILFSFU0ENl1pmsh+i1cx4O5z/f
+9/3f93NuzEgXgmlNIaWg9+l1kHb3antCKB0rndgiYpsmxfwtYiX7dbAqylwvUmlR
+MV+UZElmiIRVwMywhqAiMapAyUSYyqZOwgBCZmBT06kCJAxlUwI6M6CKkQ4hlADF
+wJSQmCeaVizKnLhjxTwui5GmYcg0yohhqqZCAN+QYslgEKg6kaAOFEOSObHCdn0G
+N4eRy5ZbNq/xS2TS3r/4/+w78UvOxESBsqYRrBlymGBZUTVdR7oOCEWabPhAlzkx
+VM04OlplY4KqxIY8kRdrLcL8ufpB/gYsj1peRQJPZoo7tmcTu4o/V3he3M336V4y
+7uM3Mxz5rRTBVozyWXJGLXNcy46J+TJHEs/ypWXVkA3VgADkiawubjksYvmIsK5B
+iS+/D6vlkgaFlHD7MlAUAhFgkm4QHspElGHdwMAwkIqxxoiGVYWqYYI0BVKkQCQB
+RHXRz1YTs/2W3CeKck3XisaQl3CY2HDtStkUIS0oZEwN+J9MCGbN+vP16kKZ33M7
+coXbnbCkbPxumXB6R+/Rm6XbKhOaGhho8nate1C4YnxzYeGawxtTgfoi+KlN2Nvw
+zi1amd39qPDc85Nja0nnkmT3dnfmgesLHr4e2fXiaGICbPjybdGOzqUtp1OXzFel
+U3ua74xGGzoa5wjHDmZSs39k+uqtt5oPjY/Pb78xb1ly4P7bJ4MtNaETg2+mqS/y
+upZs2pO+s7d4qH8kuyd3KFjdfjsnY3ZTS/36gq0/+sr7A4MXWl+f/eyc333zw8u2
+ufXDotWZA3ceWZwVLEplNk5JliT6Vr1fdSZ1qv94+cWXryQ5++Oi4ZXfuki0dWF7
+/PLo4+Kv96r3Bd4/q+lbEKrY/xMur0fT
+=SyWp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/globcal
+
+==================================================================
