@@ -1,83 +1,6 @@
 Header unset Connection
 Header unset Time-Zone
 Header unset Keep-Alive
-Header unset Access-Control-Allow-Credentials
-Header unset Access-Control-Allow-Headers
-Header unset Access-Control-Allow-Methods
-Header unset Access-Control-Allow-Origin
-Header unset Access-Control-Expose-Headers
-Header unset Access-Control-Max-Age
-Header unset Access-Control-Request-Headers
-Header unset Access-Control-Request-Method
-Header unset Alt-Svc
-Header unset Cache-Control
-Header unset Content-MD5
-Header unset Content-Security-Policy
-Header unset Content-Security-Policy-Report-Only
-Header unset Content-Type-Options
-Header unset Cookie
-Header unset DNT
-Header unset Expect-CT
-Header unset Expect-Staple
-Header unset Expires
-Header unset Frame-Options
-Header unset Host
-Header unset Host-Header
-Header unset Link
-Header unset P3P
-Header unset Public-Key-Pins
-Header unset Public-Key-Pins-Report-Only
-Header unset Pragma
-Header unset Referrer-Policy
-Header unset Report-To
-Header unset Set-Cookie
-Header unset Server
-Header always unset Server
-Header unset Strict-Transport-Security
-Header unset TE
-Header unset Timing-Allow-Origin
-Header unset Transfer-Encoding
-Header unset Trailer
-Header unset Vary
-Header unset Via
-Header unset Upgrade
-Header unset Warning
-Header unset WWW-Authenticate
-Header unset X-Arena
-Header unset X-Blogs
-Header unset X-Cache
-Header unset X-Cache-Enabled
-Header unset X-Cache-Hits
-Header unset X-Content-Security-Policy
-Header unset X-Content-Type-Options
-Header unset X-Co-Op-Domains
-Header unset X-DNS-Prefetch-Control
-Header unset X-Download-Options
-Header unset X-Emojis
-Header unset X-Fastly-Request-ID
-Header unset X-Forwarded-Host
-Header unset X-Forwarded-Proto
-Header unset X-Frame-Options
-Header unset X-Generator
-Header unset X-GitHub-Request-Id
-Header unset X-Hostname
-Header unset X-Jurisdiction
-Header unset X-Modified
-Header unset X-NoSpam-Policy
-Header unset X-Permitted-Cross-Domain-Policies
-Header unset X-Pingback
-Header unset X-Plugins
-Header unset X-Proxy-Cache
-Header unset X-RDFa
-Header unset X-Request-Id
-Header unset X-Robots-Tag
-Header unset X-Seen-By
-Header unset X-Served-By
-Header unset X-Sucuri-Cache
-Header unset X-Sucuri-ID
-Header unset X-UA-Compatible
-Header unset X-Webkit-CSP
-Header unset X-XSS-Protection
 
 ServerSignature On
 AddDefaultCharset UTF-8
@@ -87,7 +10,7 @@ Options +FollowSymLinks -MultiViews -Indexes
 
 DirectoryIndex index.html default.html index.php index.php3 index.phtml index.php5 index.shtml mwindex.phtml /index.html /default.html /index.php
 
-Header set Host "GLOBCAL.GITHUB.IO:80/443"
+Header set Host "GITHUB.GLOBCAL.NET"
 Header set Connection "keep-alive"
 Header set Time-Zone "America/New_York"
 Header set Keep-Alive "timeout=100,max=500"
@@ -95,10 +18,12 @@ Header set Keep-Alive "timeout=100,max=500"
 Header set Access-Control-Allow-Origin "https://feedproxy.google.com https://sites.google.com https://*.googleapis.com https://globcal.net https://*.globcal.net http://feeds.globcal.net https://feeds.feedburner.com https://facebook.com https://*.facebook.com https://globcal.workplace.com https://twitter.com https://dearuhua.com https://*.dearuhua.com https://*.blogspot.com https://nonstate.net"
 
 Header set Access-Control-Allow-Headers "Accept, Accept-Charset, Accept-Datetime, Accept-Encoding, Accept-Ext, Accept-Features, Accept-Language, Accept-Params, Accept-Ranges, Access-Control-Allow-Credentials, Access-Control-Allow-Headers, Access-Control-Allow-Methods, Access-Control-Allow-Origin, Access-Control-Expose-Headers, Access-Control-Max-Age, Access-Control-Request-Headers, Access-Control-Request-Method, Age, Allow, Alternates, Authentication-Info, Authorization, Cache-Control, Compliance, Connection, Content-Base, Content-Disposition, Content-Encoding, Content-ID, Content-Language, Content-Length, Content-Location, Content-MD5, Content-Range, Content-Script-Type, Content-Security-Policy, Content-Style-Type, Content-Transfer-Encoding, Content-Type, Content-Version, Cookie, Cost, DNT, Date, Default-Style, Delta-Base, Depth, Derived-From, Destination, Differential-ID, Digest, ETag, Expect-CT, Expires, From, GetProfile, HTTP-date, Host, Keep-Alive, Label, Last-Event-ID, Last-Modified, Link, Location, Lock-Token, MIME-Version, Max-Forwards, Media-Range, Message-ID, Meter, Negotiate, Non-Compliance, Optional, Origin, P3P, PEP, PICS-Label, Pep-Info, Permanent, Position, Pragma, ProfileObject, Protocol, Protocol-Query, Protocol-Request, Proxy-Authenticate, Proxy-Authentication-Info, Proxy-Authorization, Proxy-Features, Proxy-Instruction, Public, Range, Referer, Refresh, Resolution-Hint, Resolver-Location, Retry-After, Safe, Sec-Websocket-Extensions, Sec-Websocket-Key, Sec-Websocket-Origin, Sec-Websocket-Protocol, Sec-Websocket-Version, Security-Scheme, Server, Set-Cookie, SetProfile, SoapAction, Status, Status-URI, Strict-Transport-Security, SubOK, Subst, Surrogate-Capability, Surrogate-Control, TE, Timeout, Title, Trailer, Transfer-Encoding, UA-Color, UA-Media, UA-Pixels, UA-Resolution, UA-Windowpixels, URI, Upgrade, User-Agent, Variant-Vary, Vary, Version, Via, Viewport-Width, WWW-Authenticate, Want-Digest, Warning, Width, X-Content-Duration, X-Content-Security-Policy, X-Content-Type-Options"
+
 Header set Access-Control-Expose-Headers "Accept, Accept-Charset, Accept-Datetime, Accept-Encoding, Accept-Ext, Accept-Features, Accept-Language, Accept-Params, Accept-Ranges, Access-Control-Allow-Credentials, Access-Control-Allow-Headers, Access-Control-Allow-Methods, Access-Control-Allow-Origin, Access-Control-Expose-Headers, Access-Control-Max-Age, Access-Control-Request-Headers, Access-Control-Request-Method, Age, Allow, Alternates, Authentication-Info, Authorization, Cache-Control, Compliance, Connection, Content-Base, Content-Disposition, Content-Encoding, Content-ID, Content-Language, Content-Length, Content-Location, Content-MD5, Content-Range, Content-Script-Type, Content-Security-Policy, Content-Style-Type, Content-Transfer-Encoding, Content-Type, Content-Version, Cookie, Cost, DNT, Date, Default-Style, Delta-Base, Depth, Derived-From, Destination, Differential-ID, Digest, ETag, Expect-CT, Expires, From, GetProfile, HTTP-date, Host, Keep-Alive, Label, Last-Event-ID, Last-Modified, Link, Location, Lock-Token, MIME-Version, Max-Forwards, Media-Range, Message-ID, Meter, Negotiate, Non-Compliance, Optional, Origin, P3P, PEP, PICS-Label, Pep-Info, Permanent, Position, Pragma, ProfileObject, Protocol, Protocol-Query, Protocol-Request, Proxy-Authenticate, Proxy-Authentication-Info, Proxy-Authorization, Proxy-Features, Proxy-Instruction, Public, Range, Referer, Refresh, Resolution-Hint, Resolver-Location, Retry-After, Safe, Sec-Websocket-Extensions, Sec-Websocket-Key, Sec-Websocket-Origin, Sec-Websocket-Protocol, Sec-Websocket-Version, Security-Scheme, Server, Set-Cookie, SetProfile, SoapAction, Status, Status-URI, Strict-Transport-Security, SubOK, Subst, Surrogate-Capability, Surrogate-Control, TE, Timeout, Title, Trailer, Transfer-Encoding, UA-Color, UA-Media, UA-Pixels, UA-Resolution, UA-Windowpixels, URI, Upgrade, User-Agent, Variant-Vary, Vary, Version, Via, Viewport-Width, WWW-Authenticate, Want-Digest, Warning, Width, X-Content-Duration, X-Content-Security-Policy, X-Content-Type-Options"
+
 Header set Access-Control-Allow-Methods "CONNECT, DEBUG, DELETE, DONE, GET, HEAD, HTTP, HTTP/0.9, HTTP/1.0, HTTP/1.1, HTTP/2, OPTIONS, ORIGIN, ORIGINS, PATCH, POST, PUT, QUIC, REST, SESSION, SHOULD, SPDY, TRACE, TRACK"
 
-#Header set Content-Security-Policy "default-src 'self' filesystem: sites.google.com globcal.github.io globcal.blogspot.com globcal.tumblr.com globcal.facebook.com globcal.workplace.com globcal.academia.edu globcal.weebly.com globcal.report-uri.com globcal.github.com globcal.business.site apis.google.com feeds.globcal.net ssl.google-analytics.com platform.twitter.com platform.linkedin.com en.wikipedia.org connect.facebook.net www.facebook.com business.facebook.com developers.facebook.com fonts.googleapis.com fonts.gstatic.com webmention.io www.googletagmanager.com translate.google.com m.addthisedge.com s7.addthis.com cdn.syndication.twimg.com syndication.twitter.com ajax.googleapis.com plus.google.com twemoji.maxcdn.com pagead2.googlesyndication.com translate.googleapis.com stats.g.doubleclick.net cdn.inspectlet.com secure.skypeassets.com cdn.jsdelivr.net www.google-analytics.com; script-src 'self' 'strict-dynamic' filesystem: https://translate.google.com https://s7.addthis.com https://feeds.feedburner.com https://www.google-analytics.com https://feedproxy.google.com https://rssunify.com https://secure.skypeassets.com https://cdn.jsdelivr.net https://cdn.inspectlet.com https://q.addthis.com https://assets.pinterest.com https://ekobius.ipage.com https://en.gravatar.com https://www.gravatar.com https://apis.google.com https://admin.google.com/a/globcal.net https://script.google.com/a/globcal.net https://groups.google.com/a/globcal.net https://drive.google.com/a/globcal.net https://docs.google.com/a/globcal.net https://api-public.addthis.com https://stats.g.doubleclick.net https://connect.facebook.net https://www.googletagmanager.com https://platform.twitter.com https://platform.linkedin.com https://staticxx.facebook.com https://pagead2.googlesyndication.com; style-src 'self' filesystem: https://fonts.googleapis.com https://fonts.gstatic.com https://globcal.net https://translate.googleapis.com; img-src 'self' https://www.facebook.com https://www.reddit.com https://nonstate.net https://www.google.com https://translate.googleapis.com https://photos.google.com https://m.addthis.com https://facebook.com https://syndication.twitter.com https://platform.twitter.com https://ton.twimg.com https://www.gstatic.com https://www.google-analytics.com; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; connect-src 'self' https://feeds.feedburner.com https://webmention.io https://twitter.com https://connect.facebook.net https://m.addthis.com; media-src 'self' https://nonstate.net https://feedproxy.google.com https://www.youtube.com; object-src 'none'; child-src 'self' nonstate.net globcal.net ekobius.org indigenousunityflag.com blogspot.com facebook.com sites.google.com google.com/a/globcal.net; frame-src 'self' https://en.wikipedia.org https://feeds.feedburner.com https://staticxx.facebook.com https://www.facebook.com https://business.facebook.com https://s7.addthis.com https://apis.google.com https://platform.twitter.com https://googleads.g.doubleclick.net https://accounts.google.com; worker-src 'none'; frame-ancestors 'self' https://feeds.feedburner.com https://staticxx.facebook.com https://www.facebook.com https://business.facebook.com https://s7.addthis.com https://apis.google.com https://platform.twitter.com https://googleads.g.doubleclick.net https://accounts.google.com; form-action 'self' https://docs.google.com https://ssl.gstatic.com https://www.google.com https://script.google.com https://www.gstatic.com https://survey.googleratings.com https://drive.google.com https://admin.google.com https://www.facebook.com; upgrade-insecure-requests; disown-opener; reflected-xss block; base-uri 'self' https://globcal.net; manifest-src 'self' https://globcal.net; referrer origin;"
+Header set Content-Security-Policy "default-src 'self' filesystem: sites.google.com globcal.github.io globcal.blogspot.com globcal.tumblr.com globcal.facebook.com globcal.workplace.com globcal.academia.edu globcal.weebly.com globcal.report-uri.com globcal.github.com globcal.business.site apis.google.com feeds.globcal.net ssl.google-analytics.com platform.twitter.com platform.linkedin.com en.wikipedia.org connect.facebook.net www.facebook.com business.facebook.com developers.facebook.com fonts.googleapis.com fonts.gstatic.com webmention.io www.googletagmanager.com translate.google.com m.addthisedge.com s7.addthis.com cdn.syndication.twimg.com syndication.twitter.com ajax.googleapis.com plus.google.com twemoji.maxcdn.com pagead2.googlesyndication.com translate.googleapis.com stats.g.doubleclick.net cdn.inspectlet.com secure.skypeassets.com cdn.jsdelivr.net www.google-analytics.com; script-src 'self' 'strict-dynamic' filesystem: https://translate.google.com https://s7.addthis.com https://feeds.feedburner.com https://www.google-analytics.com https://feedproxy.google.com https://rssunify.com https://secure.skypeassets.com https://cdn.jsdelivr.net https://cdn.inspectlet.com https://q.addthis.com https://assets.pinterest.com https://ekobius.ipage.com https://en.gravatar.com https://www.gravatar.com https://apis.google.com https://admin.google.com/a/globcal.net https://script.google.com/a/globcal.net https://groups.google.com/a/globcal.net https://drive.google.com/a/globcal.net https://docs.google.com/a/globcal.net https://api-public.addthis.com https://stats.g.doubleclick.net https://connect.facebook.net https://www.googletagmanager.com https://platform.twitter.com https://platform.linkedin.com https://staticxx.facebook.com https://pagead2.googlesyndication.com; style-src 'self' filesystem: https://fonts.googleapis.com https://fonts.gstatic.com https://globcal.net https://translate.googleapis.com; img-src 'self' https://www.facebook.com https://www.reddit.com https://nonstate.net https://www.google.com https://translate.googleapis.com https://photos.google.com https://m.addthis.com https://facebook.com https://syndication.twitter.com https://platform.twitter.com https://ton.twimg.com https://www.gstatic.com https://www.google-analytics.com; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; connect-src 'self' https://feeds.feedburner.com https://webmention.io https://twitter.com https://connect.facebook.net https://m.addthis.com; media-src 'self' https://nonstate.net https://feedproxy.google.com https://www.youtube.com; object-src 'none'; child-src 'self' nonstate.net globcal.net ekobius.org indigenousunityflag.com blogspot.com facebook.com sites.google.com google.com/a/globcal.net; frame-src 'self' https://en.wikipedia.org https://feeds.feedburner.com https://staticxx.facebook.com https://www.facebook.com https://business.facebook.com https://s7.addthis.com https://apis.google.com https://platform.twitter.com https://googleads.g.doubleclick.net https://accounts.google.com; worker-src 'none'; frame-ancestors 'self' https://feeds.feedburner.com https://staticxx.facebook.com https://www.facebook.com https://business.facebook.com https://s7.addthis.com https://apis.google.com https://platform.twitter.com https://googleads.g.doubleclick.net https://accounts.google.com; form-action 'self' https://docs.google.com https://ssl.gstatic.com https://www.google.com https://script.google.com https://www.gstatic.com https://survey.googleratings.com https://drive.google.com https://admin.google.com https://www.facebook.com; upgrade-insecure-requests; disown-opener; reflected-xss block; base-uri 'self' https://globcal.net; manifest-src 'self' https://globcal.net; referrer origin;"
 
 Header set Access-Control-Allow-Credentials "true"
 
