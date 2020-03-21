@@ -11,6 +11,8 @@ Header set Connection "keep-alive"
 Header set Time-Zone "America/New_York"
 Header set Keep-Alive "timeout=100,max=500"
 
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
 Header set Access-Control-Allow-Origin "https://feedproxy.google.com https://sites.google.com https://*.googleapis.com https://globcal.net https://*.globcal.net http://feeds.globcal.net https://feeds.feedburner.com https://facebook.com https://*.facebook.com https://globcal.workplace.com https://twitter.com https://dearuhua.com https://*.dearuhua.com https://*.blogspot.com https://nonstate.net"
 
 Header set Link "<https://github.globcal.net/index.html>; rel='canonical'"
