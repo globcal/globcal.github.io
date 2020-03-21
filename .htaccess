@@ -86,25 +86,25 @@ Options +FollowSymLinks -MultiViews -Indexes
 
 DirectoryIndex index.html /index.html
 
-Header set Host "GITHUB.GLOBCAL.NET"
-Header set Connection "keep-alive"
-Header set Time-Zone "America/New_York"
-Header set Keep-Alive "timeout=100,max=500"
+Header set Host GITHUB.GLOBCAL.NET
+Header set Connection keep-alive
+Header set Time-Zone America/New_York
+Header set Keep-Alive timeout=100,max=500
 
-Header set Expect-CT "max-age=86400, report, report-uri='https://globcal.report-uri.com/r/d/ct/reportOnly'"
+Header set Expect-CT max-age=86400, report, report-uri='https://globcal.report-uri.com/r/d/ct/reportOnly'
 
-Header set Expect-Staple "max-age=86400; report, report-uri='https://globcal.report-uri.com/r/d/staple/reportOnly'"
+Header set Expect-Staple max-age=86400; report, report-uri='https://globcal.report-uri.com/r/d/staple/reportOnly'
 
-Header set Strict-Transport-Security "max-age=31536000; includeSubdomains; preload"
+Header set Strict-Transport-Security max-age=31536000; includeSubdomains; preload
 
-Header set Access-Control-Allow-Methods "CONNECT, DEBUG, DELETE, DONE, GET, HEAD, HTTP, HTTP/0.9, HTTP/1.0, HTTP/1.1, HTTP/2, OPTIONS, ORIGIN, ORIGINS, PATCH, POST, PUT, QUIC, REST, SESSION, SHOULD, SPDY, TRACE, TRACK"
+Header set Access-Control-Allow-Methods CONNECT, DEBUG, DELETE, DONE, GET, HEAD, HTTP, HTTP/0.9, HTTP/1.0, HTTP/1.1, HTTP/2, OPTIONS, ORIGIN, ORIGINS, PATCH, POST, PUT, QUIC, REST, SESSION, SHOULD, SPDY, TRACE, TRACK
 
-Header set Access-Control-Allow-Origin "https://feedproxy.google.com https://sites.google.com https://*.googleapis.com https://globcal.net https://*.globcal.net https://feeds.feedburner.com https://facebook.com https://*.facebook.com https://globcal.workplace.com https://twitter.com https://www.nonstate.net"
+Header set Access-Control-Allow-Origin https://feedproxy.google.com https://sites.google.com https://*.googleapis.com https://globcal.net https://*.globcal.net https://feeds.feedburner.com https://facebook.com https://*.facebook.com https://globcal.workplace.com https://twitter.com https://www.nonstate.net
 
-Header set X-Content-Type-Options "nosniff"
-Header set X-XSS-Protection "1;mode=block"
+Header set X-Content-Type-Options nosniff
+Header set X-XSS-Protection 1;mode=block
 
-Header set Link "<https://github.globcal.net/index.html>; rel='canonical'"
+Header set Link <https://github.globcal.net/index.html>; rel='canonical'
 
 AddHandler cgi-script .php .pl .py .jsp .asp .htm .shtml .sh .cgi
 
