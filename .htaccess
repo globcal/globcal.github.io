@@ -1,82 +1,6 @@
 Header unset Connection
 Header unset Time-Zone
 Header unset Keep-Alive
-Header unset Access-Control-Allow-Credentials
-Header unset Access-Control-Allow-Headers
-Header unset Access-Control-Allow-Methods
-Header unset Access-Control-Allow-Origin
-Header unset Access-Control-Expose-Headers
-Header unset Access-Control-Max-Age
-Header unset Access-Control-Request-Headers
-Header unset Access-Control-Request-Method
-Header unset Alt-Svc
-Header unset Cache-Control
-Header unset Content-MD5
-Header unset Content-Security-Policy
-Header unset Content-Security-Policy-Report-Only
-Header unset Content-Type-Options
-Header unset Cookie
-Header unset DNT
-Header unset Expect-CT
-Header unset Expect-Staple
-Header unset Expires
-Header unset Frame-Options
-Header unset Host
-Header unset Host-Header
-Header unset Link
-Header unset P3P
-Header unset Public-Key-Pins
-Header unset Public-Key-Pins-Report-Only
-Header unset Pragma
-Header unset Referrer-Policy
-Header unset Report-To
-Header unset Set-Cookie
-Header unset Server
-Header always unset Server
-Header unset Strict-Transport-Security
-Header unset TE
-Header unset Timing-Allow-Origin
-Header unset Transfer-Encoding
-Header unset Trailer
-Header unset Vary
-Header unset Via
-Header unset Upgrade
-Header unset Warning
-Header unset WWW-Authenticate
-Header unset X-Arena
-Header unset X-Blogs
-Header unset X-Cache
-Header unset X-Cache-Enabled
-Header unset X-Cache-Hits
-Header unset X-Content-Security-Policy
-Header unset X-Content-Type-Options
-Header unset X-Co-Op-Domains
-Header unset X-DNS-Prefetch-Control
-Header unset X-Download-Options
-Header unset X-Emojis
-Header unset X-Fastly-Request-ID
-Header unset X-Forwarded-Host
-Header unset X-Forwarded-Proto
-Header unset X-Frame-Options
-Header unset X-Generator
-Header unset X-GitHub-Request-Id
-Header unset X-Hostname
-Header unset X-Jurisdiction
-Header unset X-Modified
-Header unset X-NoSpam-Policy
-Header unset X-Permitted-Cross-Domain-Policies
-Header unset X-Pingback
-Header unset X-Plugins
-Header unset X-Proxy-Cache
-Header unset X-Request-Id
-Header unset X-Robots-Tag
-Header unset X-Seen-By
-Header unset X-Served-By
-Header unset X-Sucuri-Cache
-Header unset X-Sucuri-ID
-Header unset X-UA-Compatible
-Header unset X-Webkit-CSP
-Header unset X-XSS-Protection
 
 ServerSignature On
 AddDefaultCharset UTF-8
@@ -91,18 +15,18 @@ Header set Connection keep-alive
 Header set Time-Zone America/New_York
 Header set Keep-Alive timeout=100,max=500
 
-Header set Expect-CT max-age=86400, report, report-uri='https://globcal.report-uri.com/r/d/ct/reportOnly'
+Header set "Expect-CT: max-age=86400, report, report-uri='https://globcal.report-uri.com/r/d/ct/reportOnly'"
 
-Header set Expect-Staple max-age=86400; report, report-uri='https://globcal.report-uri.com/r/d/staple/reportOnly'
+Header set "Expect-Staple: max-age=86400; report, report-uri='https://globcal.report-uri.com/r/d/staple/reportOnly'"
 
-Header set Strict-Transport-Security max-age=31536000; includeSubdomains; preload
+Header set "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload"
 
 Header set Access-Control-Allow-Methods CONNECT, DEBUG, DELETE, DONE, GET, HEAD, HTTP, HTTP/0.9, HTTP/1.0, HTTP/1.1, HTTP/2, OPTIONS, ORIGIN, ORIGINS, PATCH, POST, PUT, QUIC, REST, SESSION, SHOULD, SPDY, TRACE, TRACK
 
 Header set Access-Control-Allow-Origin https://feedproxy.google.com https://sites.google.com https://*.googleapis.com https://globcal.net https://*.globcal.net https://feeds.feedburner.com https://facebook.com https://*.facebook.com https://globcal.workplace.com https://twitter.com https://www.nonstate.net
 
-Header set X-Content-Type-Options nosniff
-Header set X-XSS-Protection 1;mode=block
+Header set "X-Content-Type-Options: nosniff"
+Header set "X-XSS-Protection: 1;mode=block"
 
 Header set Link <https://github.globcal.net/index.html>; rel='canonical'
 
